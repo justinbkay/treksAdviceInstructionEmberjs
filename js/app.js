@@ -44,9 +44,6 @@ App.Contributor = Ember.Object.extend({
 
 App.Contributor.reopenClass({
   allContributors: [],
-  //clear: function() {
-    //this.allContributors.clear();
-  //},
 
   find: function(){
     if(this.allContributors.length === 0) {
